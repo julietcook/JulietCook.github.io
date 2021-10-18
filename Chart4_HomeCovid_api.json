@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   
   "title": {
-    "text": "Covid Cases - Live",
+    "text": "Home Covid Cases",
     "subtitle":"New Covid Cases by Specimen Date",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
@@ -19,7 +19,7 @@
       
       {"filter": {
         "field": "areaName", 
-        "oneOf": ["Manchester", "Cheshire East", "Bristol, City of"]}
+        "oneOf": ["Manchester", "Cheshire East", "Trafford"]}
         }
 
 

@@ -15,8 +15,8 @@
 
 <!-- CSS --> 
 <link rel="stylesheet" href="styles.css">
-<!-- Tab name-->
-<title> Juliet Cook</title>
+<!-- Title-->
+<h1> Data Science</h1>
 
 </head>
 
@@ -27,14 +27,23 @@
 <!-- ///////////////////  START BODY //////////////////////////////////// -->
 
 <body>
-  <!-- background colour of the website -->
- <body style="background-color: #303030 ;" body></body>
- <!-- main title colours in the styles.css -->
-<header><span class="orange">Juliet Cook</span></header>
-<p class=title1> My Portfolio</p>
-<p class=title1><span class="bold"> Week 1</span></p>
+  <div class="navbuttons">
+    <button class="button" style="vertical-align:middle" onclick="location.href='index.html'"><span>Portfolio </span></button>
+    <button class="button" style="vertical-align:middle" onclick="location.href='project.html'"><span>Project </span></button>
+  </div>
 
- <div class="container">
+
+ <!-- main title colours in the styles.css -->
+
+<p class=title1> Charts by Juliet Cook</p>
+
+<p class=title2>My Portfolio</p>
+
+
+<p class=title3><span class="bold"> Week 1</span></p>
+<p class=title4><span> Learning to embed graphs</span></p>
+
+ <container class="week1">
 <!--Chart 1 -->
 
   <div class="chart" id="chart1">
@@ -61,11 +70,13 @@
       vegaEmbed('#chart3', myChart3);
     </script>
 </div>
-  
 </div>
+</container>
 
-<p class=title1><span class="bold"> Week 2</span></p>
-<div class="container">
+<p class=title3><span class="bold"> Week 2</span></p>
+<p class=title4><span >Using APIs and CVS files to generate charts</span></p>
+
+<container class="week2">
 <!--Chart 4 round manchester Covid cases using api -->
 <div class="chart" id="chart4">
     <script>
@@ -73,7 +84,7 @@
       vegaEmbed('#chart4', myChart4);
     </script>
 </div>
-<p class=title1><span class="bold"> Graph using an api</span></p>
+
 
 <!--Chart 5 Oxford, manchester, bristol using raw data -->
 <div class="chart" id="chart5">
@@ -82,13 +93,13 @@
       vegaEmbed('#chart5', myChart5);
     </script>
 </div>
-<p class=title1><span class="bold"> Graph using raw data</span></p>
-</div>
+</container>
 
-<p class=title1><span class="bold"> Week 3</span></p>
+<p class=title3><span class="bold"> Week 3</span></p>
+<p class=title4><span > Manually inputing data and adding a CSV to JSON dictionary </span></p>
 
-<!--Chart 6 Renewable electricity generated - by source
-getting from data on github  -->
+<container class="week3">
+<!-- Chart 6 Renewable electricity generated - by source getting from data on github -->
 <div class="chart" id="chart6">
   <script>
     var myChart6 = "chart6_renewable.json";
@@ -105,9 +116,9 @@ getting from data on github  -->
     vegaEmbed('#chart7', myChart7);
   </script>
 </div>
-<p class=heading1><span> Graph using manually added data</span></p>
-</div>
 
+</div>
+</container>
 
 
 </body>

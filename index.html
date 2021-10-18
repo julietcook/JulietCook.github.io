@@ -12,6 +12,12 @@
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
 
+
+<!-- CSS --> 
+<link rel="stylesheet" href="styles.css">
+<!-- Tab name-->
+<title> Juliet Cook</title>
+
 </head>
 
 <!-- ///////////////////  HEAD //////////////////////////////////// -->
@@ -21,7 +27,14 @@
 <!-- ///////////////////  START BODY //////////////////////////////////// -->
 
 <body>
-  <body style="background-color: rgb(0, 0, 0);" body></body>
+  <!-- background colour of the website -->
+ <body style="background-color: #303030 ;" body></body>
+ <!-- main title colours in the styles.css -->
+<header><span class="orange">Juliet Cook</span></header>
+<p class=title1> My Portfolio</p>
+<p class=title1><span class="bold"> Week 1</span></p>
+
+ <div class="container">
 <!--Chart 1 -->
 
   <div class="chart" id="chart1">
@@ -49,6 +62,10 @@
     </script>
 </div>
   
+</div>
+
+<p class=title1><span class="bold"> Week 2</span></p>
+<div class="container">
 <!--Chart 4 round manchester Covid cases using api -->
 <div class="chart" id="chart4">
     <script>
@@ -56,6 +73,7 @@
       vegaEmbed('#chart4', myChart4);
     </script>
 </div>
+<p class=title1><span class="bold"> Graph using an api</span></p>
 
 <!--Chart 5 Oxford, manchester, bristol using raw data -->
 <div class="chart" id="chart5">
@@ -64,6 +82,33 @@
       vegaEmbed('#chart5', myChart5);
     </script>
 </div>
+<p class=title1><span class="bold"> Graph using raw data</span></p>
+</div>
+
+<p class=title1><span class="bold"> Week 3</span></p>
+
+<!--Chart 6 Renewable electricity generated - by source
+getting from data on github  -->
+<div class="chart" id="chart6">
+  <script>
+    var myChart6 = "chart6_renewable.json";
+    vegaEmbed('#chart6', myChart6);
+  </script>
+</div>
+
+</div>
+
+<!--Chart 7 Forest area manual data added in file -->
+<div class="chart" id="chart7">
+  <script>
+    var myChart7 = "Chart7_manual.json";
+    vegaEmbed('#chart7', myChart7);
+  </script>
+</div>
+<p class=heading1><span> Graph using manually added data</span></p>
+</div>
+
+
 
 </body>
 <!-- ///////////////////  END BODY //////////////////////////////////// -->

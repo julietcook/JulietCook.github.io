@@ -50,7 +50,7 @@
     "color": {
       "field": "areaName",
       "type": "nominal",
-      "scale": {"scheme": "Viridis"},
+      "scale": {"scheme": "Inferno"},
       "title": "Regions",
       "legend": {
         "orient": "top-left", 
@@ -58,4 +58,5 @@
     }
 }
 }
+
 

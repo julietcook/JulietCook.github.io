@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "Emissions data",
     "title": {
-      "text": "Belgium Emmissions data",
+      "text": "Belgium Carbon Monoxide Emmissions data",
       "anchor": "start",
       "subtitle": "2010 to 2021"},
     "data": {

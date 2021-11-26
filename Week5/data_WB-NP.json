@@ -1,0 +1,813 @@
+[
+    {
+        "page": 1,
+        "pages": 2,
+        "per_page": 50,
+        "total": 61,
+        "sourceid": "2",
+        "sourcename": "World Development Indicators",
+        "lastupdated": "2021-11-23"
+    },
+    [
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "2020",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "2019",
+            "value": 55.7713034222466,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "2018",
+            "value": 55.9565854758473,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "2017",
+            "value": 56.0058526814424,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "2016",
+            "value": 55.8319623990413,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "2015",
+            "value": 55.4205310507949,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "2014",
+            "value": 54.3510038346587,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "2013",
+            "value": 53.0787989373282,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "2012",
+            "value": 51.7276435346541,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "2011",
+            "value": 50.4878005087351,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "2010",
+            "value": 49.5054697989787,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "2009",
+            "value": 49.0037798701346,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "2008",
+            "value": 48.6982185090627,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "2007",
+            "value": 48.6553814809483,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "2006",
+            "value": 48.6736818544817,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "2005",
+            "value": 48.693343835846,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "2004",
+            "value": 48.6472675193729,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "2003",
+            "value": 48.6265509636373,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "2002",
+            "value": 48.6088411076016,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "2001",
+            "value": 48.5881440455415,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "2000",
+            "value": 48.55446608369,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1999",
+            "value": 48.2862371288887,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1998",
+            "value": 47.9425222373469,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1997",
+            "value": 47.6132977809478,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1996",
+            "value": 47.3618053791545,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1995",
+            "value": 47.2412621039942,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1994",
+            "value": 47.3785819859295,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1993",
+            "value": 47.6354533701518,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1992",
+            "value": 47.9546780551442,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1991",
+            "value": 48.2754289963279,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1990",
+            "value": 48.5203053706257,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1989",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1988",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1987",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1986",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1985",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1984",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1983",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1982",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1981",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1980",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1979",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1978",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1977",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1976",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1975",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1974",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1973",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1972",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.TOTL.FE.ZS",
+                "value": "Labor force, female (% of total labor force)"
+            },
+            "country": {
+                "id": "NP",
+                "value": "Nepal"
+            },
+            "countryiso3code": "NPL",
+            "date": "1971",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        }
+    ]
+]

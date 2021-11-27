@@ -1,0 +1,26 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "Employment rate in % ",
+        "subtitle":"data scrapped form Wikipedia",
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10,
+        "anchor": "start",
+        "color": "black"
+      },
+      
+       "data": {
+        "url": "https://raw.githubusercontent.com/julietcook/JulietCook.github.io/main/countries-employmentrate-head.csv",
+        "format": {"type": "csv"}
+      },
+    
+      
+      "height": 300,
+      "width": 300,
+    "mark": {"type":"bar","color":"#22608C"},
+    
+    "encoding": {
+      "x": {"field": "Country", "type": "nominal", "axis": {"labelAngle": 45}},
+      "y": {"field": "Employment Rate", "type": "quantitative"}
+    }
+  }

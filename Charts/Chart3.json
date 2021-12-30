@@ -1,0 +1,22 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+      "title": {
+      "text": "Women's Labour Force Participation Rate in Asia",
+      "subtitle":"Labor force participation rate, female (% of female population ages 15+)",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "width": 300,
+    "height": 300,
+    "data": {
+      "url": "https://raw.githubusercontent.com/julietcook/JulietCook.github.io/main/Datasets/Chart3/topojson_export2.json",
+      "format": {"type": "topojson", "feature": "continent_Asia_subunits"}
+    },
+  
+    "projection": {"type": "equalEarth"},
+    "mark": {"type": "geoshape", "tooltip": true},
+    "encoding": {"color": {"field": "properties.epi", "type": "quantitative","title": "Labor force participation rate","legend":"",
+        "scale": {"range": ["#8f0000","#fe0000","#FFFAFA"]}},"tooltip": [{"field": "properties.geounit","title": "Country"},{"field": "properties.epi","title": "Participation Rate"}]}
+  }

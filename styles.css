@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&display=swap');
 
+body {
+    background-color:#eafaf1 ;
+    overflow-x: hidden;
+}
+
 footer {
     height: 100px
 }
@@ -12,8 +17,8 @@ h1 {
     font-weight: bold;
     line-height: 1; 
     text-align: center;
-    color: #228C4E ;  
-}
+    color: #228C4E ;  }
+
 /* my name */ 
 .title1 {
     
@@ -61,76 +66,118 @@ h1 {
     text-align: center;
 }
 
-
-
-
-chart {
-
-    border-style: solid;
-    border-width: 2px;
-    margin-left: 10px;
-    border-radius: 5px;
-    padding: 5px;
-    border-color: #228C4E;
-    background-color: white;
-    width: 400px;
-    height: 390px;
-    margin: 10px;
-    padding: 5px;
-
-}
+/* Nav */
 .navbuttons {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
 }
 
-body { 
-    background-color:#eafaf1 ;
-
+/*for the buttons */
+container {
+    background-color: #eafaf1;
+    align-content: center;
+    justify-content: center
 }
-    /*for the buttons */
-    container {
-        background-color: #83e2ac;
-        align-content: center;
-        justify-content: center
-    }
-    
-    .button {
-        align-content: center;
-        border-radius: 4px;
-        background-color: #83e2ac;
-        border: none;
-        color: #27a55e;
-        text-align: center;
-        font-size: 28px;
-        padding: 20px;
-        width: 240px;
-        transition: all 2s;
-        cursor: pointer;
-        margin: 5px;
-      }
-    
-      .button span {
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-        transition: .5s;
-      }
-      
-      .button span:after {
-        content: '\00bb';
+
+.button {
+    align-content: center;
+    border-radius: 4px;
+    background-color: #83e2ac;
+    border: none;
+    color: #27a55e;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 240px;
+    transition: all 2s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: .5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: .5s;
+  }
+
+.flex {
+    display: flex;
+    gap: var(--gap, 2rem);
+}
+
+
+#chart17 {
+    position: absolute;
+    margin-top: 190px;
+    right: 120px;
+}
+
+.chart { 
+    width: 400px;
+    height: 390px;
+    margin: 10px;
+    padding: 5px;
+    background-color: White;
+    border: #2a9d8f solid 5px;
+    border-radius: 10px;
+    font-family: Inter,sans-serif;
+    font-size: 10pxp;
+}
+
+.pngchart {
+    margin: 10px;
+    padding: 5px;
+    background-color: White;
+    border: #2a9d8f solid 5px;
+    border-radius: 10px;
+    font-family: Inter,sans-serif;
+    font-size: 10pxp;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.pngchart img{
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+    .mobile-nav-toggle {
+        display: block;
         position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: .5s;
-      }
-      
-      
-    
-      .week1, .week2, .week3, .week4, .week5, .week6,.week7, .week8, .week9, .week10 {
+        width: 2rem;
+        aspect-ratio: 1;
+        top: 1.5rem;
+        right: 2.5rem;
+        z-index: 9999;
+        border: 0;
+
+        background: url(hamburger.svg);
+        background-repeat: no-repeat;
+    }
+
+    .mobile-nav-toggle[data-visible="true"] {
+        background: url(cross.svg);
+        fill: #E9C46A;
+    }
+    .week1,.week2,.week3,.week4,.week5,.week6,.week7,.week8,.week9,.week10 {
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
       }
+

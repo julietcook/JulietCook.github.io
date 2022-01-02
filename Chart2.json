@@ -1,0 +1,55 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "title": {
+      "text": "UK Labour Force Participation Rate",
+      "subtitle":"ages 15+ modeled ILO estimate",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"},
+  
+    
+    "data": {
+      "url": "https://raw.githubusercontent.com/julietcook/JulietCook.github.io/main/Datasets/Chart2/combinedLFPR.csv",
+      "format": {"type": "csv"}
+    },
+   
+    "height": 300,
+    "width": 300,
+   
+    "mark": {"type": "line", "point": true, "tooltip": true},
+    
+    "encoding": {
+      
+      "x": {
+        "field": "date",
+        "type": "temporal",
+        "title": null,
+        "axis": {"grid": false}},
+   
+      "y": {
+        "field": "LFPR",
+        "type": "quantitative",
+        "title": "Labour Force Participation rate (%)",
+        "axis": {"grid": false},
+        "scale": {"domain": [50, 80]},
+  
+        "tooltip": [
+        {"field": "date", "type": "temporal"},
+        {"field": "LFPR", "type": "quantitative"}
+      ]
+        
+        },
+        
+  
+      "color": {
+        "field": "Symbol",
+        "type": "nominal",
+        "scale": {"scheme": "inferno"},
+        "title": "Gender",
+        "legend": {"orient": "top-right"}
+   
+     }
+  }
+  }

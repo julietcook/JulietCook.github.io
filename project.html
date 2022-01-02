@@ -1,0 +1,141 @@
+<!-- Richard Davies, Data Science 2021 -->
+
+
+<!-- ///////////////////  HEAD //////////////////////////////////// -->
+
+<head>
+     <!-- CSS -->
+     <link rel="stylesheet" href="styles.css">
+
+     <!-- Tab name -->
+     <h1> Data Science</h1>
+
+
+</head>
+
+
+<!-- ///////////////////  START BODY //////////////////////////////////// -->
+<body>
+    <div class="navbuttons">
+        <button class="button" style="vertical-align:middle" onclick="location.href='index.html'"><span>Portfolio </span></button>
+        <button class="button" style="vertical-align:middle" onclick="location.href='project.html'"><span>Project </span></button>
+      </div>
+    
+    
+     <!-- main title colours in the styles.css -->
+    
+    <p class=title1> Charts by Juliet Cook</p>
+    
+    <p class=title2>My Project</p>
+    
+
+    <p class=title2>A Project exploring Women's labour participation rate globally</p>
+
+     
+    <p class=title3><span class="bold"> GDP vs Women's Labour Force Participation Rate" </span></p>
+    <p class=title4><span > Using tooltip to create an interactive scatterplot </span></p>
+
+    <div class="container">
+
+     <!--Chart 1 -->
+     <div class="chart" id="chart1">
+        <script>
+          var myChart1 = "Chart1.json";
+          vegaEmbed('#chart1', myChart1);
+        </script>
+      </div>
+
+
+    </div>
+    
+     
+    <p class=title3><span class="bold"> UK Labour Force Participation Rate" </span></p>
+    <p class=title4><span > Using tooltip to create an multiline graph </span></p>
+
+    <div class="container">
+
+     <!--Chart 2-->
+     <div class="chart" id="chart2">
+        <script>
+          var myChart2 = "Chart2.json";
+          vegaEmbed('#chart2', myChart2);
+        </script>
+      </div>
+
+
+    </div>
+    
+    <p class=title3><span class="bold"> Chloropleth of Asia </span></p>
+    <p class=title4><span > Showing Women's Labour Force Participation Rate in different countries </span></p>
+
+    <div class="container">
+
+     <!--Chart 3-->
+     <div class="chart" id="chart3">
+        <script>
+          var myChart3 = "Chart3.json";
+          vegaEmbed('#chart3', myChart3);
+        </script>
+      </div>
+
+
+    </div>
+
+    <p class=title3><span class="bold"> How Marital Status changes Women's Labour Force Participaiton </span></p>
+    <p class=title4><span > Multiline grpah showing the changes in UK over time </span></p>
+
+    <div class="container">
+
+     <!--Chart 4-->
+     <div class="chart" id="chart4">
+        <script>
+          var myChart4 = "Chart4.json";
+          vegaEmbed('#chart4', myChart4);
+        </script>
+      </div>
+
+
+    </div>
+
+    <p class=title3><span class="bold"> Comparing the changes over time in the UK, Nepal, Yemen, and China</span></p>
+    <p class=title4><span > Using loops to fetch different countrys API's </span></p>
+
+    <div class="container">
+
+     <!-- Chart 5 percentage female labour force UK-->
+      <div class="chart" id="chart5">
+        <script>
+          var myChart5 = "chart_percentfemale_GBR.json";
+          vegaEmbed('#chart5', myChart5);
+        </script>
+      </div>
+
+     <!--Chart 6 percentage female labour force Nepal -->
+     <div class="chart" id="chart6">
+        <script>
+          var myChart6 = "chart_percentfemale_NP.json";
+          vegaEmbed('#chart6', myChart6);
+        </script>
+      </div>
+
+     <!-- Chart 7 percentage female labour force Yemen-->
+     <div class="chart" id="chart7">
+        <script>
+          var myChart7 = "chart_percentfemale_YE.json";
+          vegaEmbed('#chart7', myChart7);
+        </script>
+      </div>
+
+     <!--Chart 13 percentage female labour force China -->
+     <div class="chart" id="chart8">
+        <script>
+          var myChart8 = "chart_percentfemale_CN.json";
+          vegaEmbed('#chart8', myChart8);
+        </script>
+      </div>
+
+    </div>
+
+    <footer></footer>
+
+</body>

@@ -28,6 +28,7 @@
 
 <body>
   <div class="navbuttons">
+    <button class="button" style="vertical-align:middle" onclick="location.href='index.html'"><span>Portfolio </span></button>
     <button class="button" style="vertical-align:middle" onclick="location.href='project.html'"><span>Project </span></button>
   </div>
 
@@ -39,157 +40,206 @@
 <p class=title2>My Portfolio</p>
 
 
-<p class=title3><span class="bold"> Week 1</span></p>
+<p class=title3><span class="bold">Week 1</span></p>
+
 <p class=title4><span> Learning to embed graphs</span></p>
 
- <container class="week1">
-<!--Chart 1 -->
+    <div class="container">
 
-  <div class="chart" id="chart1">
-      <script>
-        var myChart1 = "chart1_covidUKRegions.json";
-        vegaEmbed('#chart1', myChart1);
-      </script>
-  </div>
+      <!--Chart 1 -->
+      <div class="chart" id="chart1">
+        <script>
+          var myChart1 = "chart1_covidUKRegions.json";
+          vegaEmbed('#chart1', myChart1);
+        </script>
+      </div>
 
-<!--Chart 2 -->
+      <!--Chart 2 -->
+      <div class="chart" id="chart2">
+        <script>
+          var myChart2 = "chart2_ukProductivity.json";
+          vegaEmbed('#chart2', myChart2);
+        </script>
+      </div>
 
-<div class="chart" id="chart2">
-    <script>
-      var myChart2 = "chart2_ukProductivity.json";
-      vegaEmbed('#chart2', myChart2);
-    </script>
-</div>
+      <!--Chart 3 ozone emmisions-->
+      <div class="chart" id="chart3">
+        <script>
+          var myChart3 = "chart9_ozoneEmissionsAPI.json";
+          vegaEmbed('#chart3', myChart3);
+        </script>
+      </div>
 
-<!--Chart 3 ozone emmisions-->
+    </div>
 
-<div class="chart" id="chart3">
-    <script>
-      var myChart3 = "chart9_ozoneEmissionsAPI.json";
-      vegaEmbed('#chart3', myChart3);
-    </script>
-</div>
-</div>
-</container>
+    <p class=title3><span class="bold">Week 2</span></p>
 
-<p class=title3><span class="bold"> Week 2</span></p>
-<p class=title4><span >Using APIs and CVS files to generate charts</span></p>
+    <p class=title4><span >Using APIs and CVS files to generate charts</span></p>     
 
-<container class="week2">
-<!--Chart 4 round manchester Covid cases using api -->
-<div class="chart" id="chart4">
-    <script>
-      var myChart4 = "Chart4_HomeCovid_api.json";
-      vegaEmbed('#chart4', myChart4);
-    </script>
-</div>
+    <div class="container">
 
+      <!--Chart 4 round manchester Covid cases using api -->
+      <div class="chart" id="chart4">
+        <script>
+          var myChart4 = "Chart4_HomeCovid_api.json";
+          vegaEmbed('#chart4', myChart4);
+        </script>
+      </div>
 
-<!--Chart 5 Oxford, manchester, bristol using raw data -->
-<div class="chart" id="chart5">
-    <script>
-      var myChart5 = "Chart5_UniCovid_raw.json";
-      vegaEmbed('#chart5', myChart5);
-    </script>
-</div>
-</container>
+    </div>
 
-<p class=title3><span class="bold"> Week 3</span></p>
-<p class=title4><span > Manually inputing data and adding a CSV to JSON dictionary </span></p>
+    <p>Charting COVID-19 data in London using CSV data</p>  
 
-<container class="week3">
-<!-- Chart 6 Renewable electricity generated - by source getting from data on github -->
-<div class="chart" id="chart6">
-  <script>
-    var myChart6 = "chart6_renewable.json";
-    vegaEmbed('#chart6', myChart6);
-  </script>
-</div>
+    <div class="container">
 
-</div>
+      <!--Chart 5 Oxford, manchester, bristol using raw data -->
+      <div class="chart" id="chart5">
+        <script>
+          var myChart5 = "Chart5_UniCovid_raw.json";
+          vegaEmbed('#chart5', myChart5);
+        </script>
+      </div>
 
-<!--Chart 7 Forest area manual data added in file -->
-<div class="chart" id="chart7">
-  <script>
-    var myChart7 = "Chart7_manual.json";
-    vegaEmbed('#chart7', myChart7);
-  </script>
-</div>
+    </div>
+   
+    <p class=title3><span class="bold"> Week 3</span></p>
+    <p class=title4><span > Manually inputing data and adding a CSV to JSON dictionary </span></p>
 
-</div>
-</container>
+    <div class="container">
 
-<p class=title3><span class="bold"> Week 4</span></p>
-<p class=title4><span > Using API's and API keys to get data for graphs </span></p>
+      <!-- Chart 6 Renewable electricity generated - by source getting from data on github -->
+      <div class="chart" id="chart6">
+        <script>
+          var myChart6 = "chart6_renewable.json";
+          vegaEmbed('#chart6', myChart6);
+        </script>
+      </div>
+    
+    </div>
 
-<container class="week4">
-<!-- Chart 8 Carbon Monoxide emissions in Belgium -->
-<div class="chart" id="chart8">
-  <script>
-    var myChart8 = "chart_be_emissions.json";
-    vegaEmbed('#chart8', myChart8);
-  </script>
-</div>
+    <p>Manually encoding data points into JSON code</p>
 
-</div>
+    <div class="container"> 
 
-<!--Chart 9 Facebook's stocks since 2013 -->
-<div class="chart" id="chart9">
-  <script>
-    var myChart9 = "chart_fbstocks.json";
-    vegaEmbed('#chart9', myChart9);
-  </script>
-</div>
+      <!--Chart 7 Forest area manual data added in file -->
+      <div class="chart" id="chart7">
+        <script>
+          var myChart7 = "Chart7_manual.json";
+          vegaEmbed('#chart7', myChart7);
+        </script>
+      </div>
 
-</div>
-</container>
+    </div>
+    
+    <p class=title3><span class="bold"> Week 4</span></p>
+    <p class=title4><span > Using API's and API keys to get data for graphs </span></p>
 
-<p class=title3><span class="bold"> Week 5</span></p>
-<p class=title4><span > Using loops to fetch different countrys API's </span></p>
+    <div class="container">
 
-<container class="week5">
-<!-- Chart 10 percentage female labour force UK-->
-<div class="chart" id="chart10">
-  <script>
-    var myChart10 = "chart_percentfemale_GBR.json";
-    vegaEmbed('#chart10', myChart10);
-  </script>
-</div>
+     <!-- Chart 8 Carbon Monoxide emissions in Belgium -->
+      <div class="chart" id="chart8">
+        <script>
+          var myChart8 = "chart_be_emissions.json";
+          vegaEmbed('#chart8', myChart8);
+        </script>
+      </div>
 
-</div>
-
-<!--Chart 11 percentage female labour force Nepal -->
-<div class="chart" id="chart11">
-  <script>
-    var myChart11 = "chart_percentfemale_NP.json";
-    vegaEmbed('#chart11', myChart11);
-  </script>
-</div>
-
-</div>
-
-<!--Chart 12 percentage female labour force Yemen -->
-<div class="chart" id="chart12">
-  <script>
-    var myChart11 = "chart_percentfemale_YE.json";
-    vegaEmbed('#chart12', myChart12);
-  </script>
-</div>
-
-</div>
-
-<!--Chart 13 percentage female labour force China -->
-<div class="chart" id="chart13">
-  <script>
-    var myChart11 = "chart_percentfemale_CN.json";
-    vegaEmbed('#chart13', myChart13);
-  </script>
-</div>
-
-</div>
-</container>
+     <!--Chart 9 Facebook's stocks since 2013 -->
+     <div class="chart" id="chart9">
+        <script>
+          var myChart9 = "chart_fbstocks.json";
+          vegaEmbed('#chart9', myChart9);
+        </script>
+      </div>
 
 
+    </div>
+    
+    <p class=title3><span class="bold"> Week 5</span></p>
+    <p class=title4><span > Using loops to fetch different countrys API's </span></p>
+
+    <div class="container">
+
+     <!-- Chart 10 percentage female labour force UK-->
+      <div class="chart" id="chart10">
+        <script>
+          var myChart10 = "chart_percentfemale_GBR.json";
+          vegaEmbed('#chart10', myChart10);
+        </script>
+      </div>
+
+     <!--Chart 11 percentage female labour force Nepal -->
+     <div class="chart" id="chart11">
+        <script>
+          var myChart11 = "chart_percentfemale_NP.json";
+          vegaEmbed('#chart11', myChart11);
+        </script>
+      </div>
+
+     <!-- Chart 12 percentage female labour force Yemen-->
+     <div class="chart" id="chart12">
+        <script>
+          var myChart12 = "chart_percentfemale_YE.json";
+          vegaEmbed('#chart12', myChart12);
+        </script>
+      </div>
+
+     <!--Chart 13 percentage female labour force China -->
+     <div class="chart" id="chart13">
+        <script>
+          var myChart13 = "chart_percentfemale_CN.json";
+          vegaEmbed('#chart13', myChart13);
+        </script>
+      </div>
+
+    </div>
+
+        
+    <p class=title3><span class="bold"> Week 7</span></p>
+    <p class=title4><span > Might not have done this one? </span></p>
+
+    <div class="container">
+
+        <!-- Chart 14 Young adults -->
+       
+   
+   
+       </div>
+    
+
+        
+    <p class=title3><span class="bold"> Week 8</span></p>
+    <p class=title4><span > Talking Economics Jagjit Chadha claimed due to increased home ownership from the 1980’s… leading to the denial of younger people to get started either in terms of being mobile or getting their own homes </span></p>
+
+    <div class="container">
+
+     <!-- Chart 15 Young adults -->
+      <div class="chart" id="chart15">
+        <script>
+          var myChart15 = "Youngadults.json";
+          vegaEmbed('#chart15', myChart15);
+        </script>
+      </div>
+
+
+    </div>
+        
+    <p class=title3><span class="bold"> Week 9</span></p>
+    <p class=title4><span > Chart with regression of GDP vs Women's Labour Force Participation Rate </span></p>
+
+    <div class="container">
+
+     <!-- Chart 16 Young adults -->
+      <div class="chart" id="chart16">
+        <script>
+          var myChart16 = "Chart_regression.json";
+          vegaEmbed('#chart16', myChart16);
+        </script>
+      </div>
+
+
+    </div>
+    
 
 
 </body>

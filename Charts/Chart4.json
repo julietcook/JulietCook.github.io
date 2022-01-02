@@ -1,0 +1,54 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "title": {
+      "text": "UK Female Labour Force Participation",
+      "subtitle":"Depending on Marital Status, Source:ILO-Statistics",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"},
+  
+    
+    "data": {
+      "url": "https://raw.githubusercontent.com/julietcook/JulietCook.github.io/main/Datasets/Chart4/ModMarital.csv",
+      "format": {"type": "csv"}
+    },
+   
+    "height": 300,
+    "width": 300,
+   
+    "mark": {"type": "line", "point": true, "tooltip": true},
+    
+    "encoding": {
+      
+      "x": {
+        "field": "Date",
+        "type": "temporal",
+        "title": null,
+        "axis": {"grid": false}},
+   
+      "y": {
+        "field": "Value",
+        "type": "quantitative",
+        "title": "Labour Force Participation rate (%)",
+        "axis": {"grid": false},
+        "scale": {"domain": [40, 60]},
+  
+        "tooltip": [
+        {"field": "Date", "type": "temporal"},
+        {"field": "Value", "type": "quantitative"}
+      ]
+        
+        },
+        
+      "color": {
+        "field": "Marital Status",
+        "type": "nominal",
+        "scale": {"scheme": "inferno"},
+        "title": "Marital Status",
+        "legend":{"orient": "bottom-right"}
+   
+     }
+  }
+  }

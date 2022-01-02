@@ -86,12 +86,12 @@ chart {
 }
 
 body { 
-    background-color:#380E26 ;
+    background-color:#eafaf1 ;
 
 }
     /*for the buttons */
     container {
-        background-color: #8C2260;
+        background-color: #83e2ac;
         align-content: center;
         justify-content: center
     }
@@ -99,9 +99,9 @@ body {
     .button {
         align-content: center;
         border-radius: 4px;
-        background-color: #8C2260;
+        background-color: #83e2ac;
         border: none;
-        color: #621843;
+        color: #27a55e;
         text-align: center;
         font-size: 28px;
         padding: 20px;

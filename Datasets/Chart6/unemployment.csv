@@ -1,0 +1,955 @@
+,Country,Gender,Date,Unemploymentrate
+0,Australia,Men,1990,6.7
+1,Australia,Men,1995,8.7
+2,Australia,Men,2000,6.5
+3,Australia,Men,2005,4.9
+4,Australia,Men,2010,5.1
+5,Australia,Men,2015,6.0
+6,Australia,Women,1990,7.2
+7,Australia,Women,1995,8.1
+8,Australia,Women,2000,6.1
+9,Australia,Women,2005,5.2
+10,Australia,Women,2010,5.4
+11,Australia,Women,2015,6.1
+12,Austria,Men,1995,3.1
+13,Austria,Men,2000,3.3
+14,Austria,Men,2005,5.4
+15,Austria,Men,2010,5.0
+16,Austria,Men,2015,6.1
+17,Austria,Women,1995,4.3
+18,Austria,Women,2000,3.8
+19,Austria,Women,2005,5.9
+20,Austria,Women,2010,4.6
+21,Austria,Women,2015,5.3
+22,Belgium,Men,1990,4.6
+23,Belgium,Men,1995,7.4
+24,Belgium,Men,2000,5.8
+25,Belgium,Men,2005,7.6
+26,Belgium,Men,2010,8.1
+27,Belgium,Men,2015,9.1
+28,Belgium,Women,1990,11.5
+29,Belgium,Women,1995,12.3
+30,Belgium,Women,2000,8.7
+31,Belgium,Women,2005,9.5
+32,Belgium,Women,2010,8.5
+33,Belgium,Women,2015,7.8
+34,Canada,Men,1990,8.2
+35,Canada,Men,1995,9.8
+36,Canada,Men,2000,6.9
+37,Canada,Men,2005,7.0
+38,Canada,Men,2010,8.8
+39,Canada,Men,2015,7.5
+40,Canada,Women,1990,8.1
+41,Canada,Women,1995,9.1
+42,Canada,Women,2000,6.7
+43,Canada,Women,2005,6.5
+44,Canada,Women,2010,7.3
+45,Canada,Women,2015,6.3
+46,Czech Republic,Men,1995,3.4
+47,Czech Republic,Men,2000,7.3
+48,Czech Republic,Men,2005,6.5
+49,Czech Republic,Men,2010,6.4
+50,Czech Republic,Men,2015,4.2
+51,Czech Republic,Women,1995,4.8
+52,Czech Republic,Women,2000,10.6
+53,Czech Republic,Women,2005,9.8
+54,Czech Republic,Women,2010,8.5
+55,Czech Republic,Women,2015,6.1
+56,Denmark,Men,1990,8.0
+57,Denmark,Men,1995,5.7
+58,Denmark,Men,2000,3.9
+59,Denmark,Men,2005,4.2
+60,Denmark,Men,2010,8.4
+61,Denmark,Men,2015,5.9
+62,Denmark,Women,1990,9.0
+63,Denmark,Women,1995,8.6
+64,Denmark,Women,2000,5.1
+65,Denmark,Women,2005,5.1
+66,Denmark,Women,2010,6.7
+67,Denmark,Women,2015,6.3
+68,Finland,Men,1990,3.5
+69,Finland,Men,1995,15.4
+70,Finland,Men,2000,9.0
+71,Finland,Men,2005,8.1
+72,Finland,Men,2010,9.0
+73,Finland,Men,2015,9.7
+74,Finland,Women,1990,2.6
+75,Finland,Women,1995,15.1
+76,Finland,Women,2000,10.6
+77,Finland,Women,2005,8.7
+78,Finland,Women,2010,7.7
+79,Finland,Women,2015,8.8
+80,France,Men,1990,6.3
+81,France,Men,1995,8.7
+82,France,Men,2000,7.4
+83,France,Men,2005,8.2
+84,France,Men,2010,9.1
+85,France,Men,2015,10.8
+86,France,Women,1990,10.0
+87,France,Women,1995,11.6
+88,France,Women,2000,9.9
+89,France,Women,2005,9.6
+90,France,Women,2010,9.5
+91,France,Women,2015,9.9
+92,Germany,Men,1990,4.1
+93,Germany,Men,1995,7.2
+94,Germany,Men,2000,7.5
+95,Germany,Men,2005,11.3
+96,Germany,Men,2010,7.5
+97,Germany,Men,2015,5.0
+98,Germany,Women,1990,5.9
+99,Germany,Women,1995,9.4
+100,Germany,Women,2000,8.1
+101,Germany,Women,2005,10.9
+102,Germany,Women,2010,6.6
+103,Germany,Women,2015,4.2
+104,Greece,Men,1990,4.4
+105,Greece,Men,1995,6.4
+106,Greece,Men,2000,7.5
+107,Greece,Men,2005,6.2
+108,Greece,Men,2010,10.0
+109,Greece,Men,2015,21.7
+110,Greece,Women,1990,12.0
+111,Greece,Women,1995,14.1
+112,Greece,Women,2000,17.2
+113,Greece,Women,2005,15.4
+114,Greece,Women,2010,16.3
+115,Greece,Women,2015,28.9
+116,Hungary,Men,1995,11.3
+117,Hungary,Men,2000,7.0
+118,Hungary,Men,2005,7.0
+119,Hungary,Men,2010,11.6
+120,Hungary,Men,2015,6.6
+121,Hungary,Women,1995,8.7
+122,Hungary,Women,2000,5.6
+123,Hungary,Women,2005,7.5
+124,Hungary,Women,2010,10.7
+125,Hungary,Women,2015,7.0
+126,Iceland,Men,1995,4.8
+127,Iceland,Men,2000,1.8
+128,Iceland,Men,2005,2.9
+129,Iceland,Men,2010,9.3
+130,Iceland,Men,2015,4.4
+131,Iceland,Women,1995,4.9
+132,Iceland,Women,2000,2.9
+133,Iceland,Women,2005,2.8
+134,Iceland,Women,2010,7.2
+135,Iceland,Women,2015,4.6
+136,Ireland,Men,1990,13.1
+137,Ireland,Men,1995,12.1
+138,Ireland,Men,2000,4.1
+139,Ireland,Men,2005,4.4
+140,Ireland,Men,2010,17.0
+141,Ireland,Men,2015,10.7
+142,Ireland,Women,1990,14.1
+143,Ireland,Women,1995,12.2
+144,Ireland,Women,2000,3.6
+145,Ireland,Women,2005,3.5
+146,Ireland,Women,2010,11.2
+147,Ireland,Women,2015,8.9
+148,Italy,Men,1990,7.9
+149,Italy,Men,1995,8.8
+150,Italy,Men,2000,8.1
+151,Italy,Men,2005,6.2
+152,Italy,Men,2010,7.5
+153,Italy,Men,2015,11.3
+154,Italy,Women,1990,17.7
+155,Italy,Women,1995,16.2
+156,Italy,Women,2000,14.5
+157,Italy,Women,2005,10.0
+158,Italy,Women,2010,9.6
+159,Italy,Women,2015,12.7
+160,Japan,Men,1990,2.0
+161,Japan,Men,1995,3.1
+162,Japan,Men,2000,5.0
+163,Japan,Men,2005,4.6
+164,Japan,Men,2010,5.4
+165,Japan,Men,2015,3.6
+166,Japan,Women,1990,2.2
+167,Japan,Women,1995,3.3
+168,Japan,Women,2000,4.5
+169,Japan,Women,2005,4.2
+170,Japan,Women,2010,4.5
+171,Japan,Women,2015,3.0
+172,Korea,Men,1990,2.9
+173,Korea,Men,1995,2.3
+174,Korea,Men,2000,5.0
+175,Korea,Men,2005,4.0
+176,Korea,Men,2010,4.0
+177,Korea,Men,2015,3.6
+178,Korea,Women,1990,1.8
+179,Korea,Women,1995,1.7
+180,Korea,Women,2000,3.6
+181,Korea,Women,2005,3.4
+182,Korea,Women,2010,3.3
+183,Korea,Women,2015,3.5
+184,Luxembourg,Men,1990,1.2
+185,Luxembourg,Men,1995,2.1
+186,Luxembourg,Men,2000,1.8
+187,Luxembourg,Men,2005,3.5
+188,Luxembourg,Men,2010,3.8
+189,Luxembourg,Men,2015,6.1
+190,Luxembourg,Women,1990,2.5
+191,Luxembourg,Women,1995,4.4
+192,Luxembourg,Women,2000,3.1
+193,Luxembourg,Women,2005,5.8
+194,Luxembourg,Women,2010,5.1
+195,Luxembourg,Women,2015,7.3
+196,Mexico,Men,1995,6.0
+197,Mexico,Men,2000,2.2
+198,Mexico,Men,2005,3.4
+199,Mexico,Men,2010,5.4
+200,Mexico,Men,2015,4.3
+201,Mexico,Women,1995,8.6
+202,Mexico,Women,2000,3.3
+203,Mexico,Women,2005,3.9
+204,Mexico,Women,2010,5.2
+205,Mexico,Women,2015,4.5
+206,Netherlands,Men,1990,5.3
+207,Netherlands,Men,1995,5.8
+208,Netherlands,Men,2000,2.4
+209,Netherlands,Men,2005,5.0
+210,Netherlands,Men,2010,4.5
+211,Netherlands,Men,2015,6.5
+212,Netherlands,Women,1990,10.6
+213,Netherlands,Women,1995,8.7
+214,Netherlands,Women,2000,3.9
+215,Netherlands,Women,2005,6.9
+216,Netherlands,Women,2010,5.5
+217,Netherlands,Women,2015,7.3
+218,New Zealand,Men,1990,8.4
+219,New Zealand,Men,1995,6.4
+220,New Zealand,Men,2000,6.3
+221,New Zealand,Men,2005,3.5
+222,New Zealand,Men,2010,6.2
+223,New Zealand,Men,2015,5.0
+224,New Zealand,Women,1990,7.5
+225,New Zealand,Women,1995,6.5
+226,New Zealand,Women,2000,6.0
+227,New Zealand,Women,2005,4.1
+228,New Zealand,Women,2010,6.9
+229,New Zealand,Women,2015,5.9
+230,Norway,Men,1990,5.6
+231,Norway,Men,1995,5.1
+232,Norway,Men,2000,3.4
+233,Norway,Men,2005,4.5
+234,Norway,Men,2010,4.0
+235,Norway,Men,2015,4.6
+236,Norway,Women,1990,4.8
+237,Norway,Women,1995,4.6
+238,Norway,Women,2000,3.2
+239,Norway,Women,2005,4.2
+240,Norway,Women,2010,2.9
+241,Norway,Women,2015,4.0
+242,Poland,Men,1995,12.5
+243,Poland,Men,2000,14.6
+244,Poland,Men,2005,16.6
+245,Poland,Men,2010,9.3
+246,Poland,Men,2015,7.3
+247,Poland,Women,1995,15.1
+248,Poland,Women,2000,18.4
+249,Poland,Women,2005,19.1
+250,Poland,Women,2010,10.0
+251,Poland,Women,2015,7.7
+252,Portugal,Men,1990,3.1
+253,Portugal,Men,1995,6.3
+254,Portugal,Men,2000,3.1
+255,Portugal,Men,2005,6.7
+256,Portugal,Men,2010,9.8
+257,Portugal,Men,2015,12.2
+258,Portugal,Women,1990,6.5
+259,Portugal,Women,1995,8.0
+260,Portugal,Women,2000,4.9
+261,Portugal,Women,2005,8.6
+262,Portugal,Women,2010,11.9
+263,Portugal,Women,2015,12.7
+264,Slovak Republic,Men,1995,12.6
+265,Slovak Republic,Men,2000,18.9
+266,Slovak Republic,Men,2005,15.4
+267,Slovak Republic,Men,2010,14.2
+268,Slovak Republic,Men,2015,10.3
+269,Slovak Republic,Women,1995,13.8
+270,Slovak Republic,Women,2000,18.6
+271,Slovak Republic,Women,2005,17.2
+272,Slovak Republic,Women,2010,14.6
+273,Slovak Republic,Women,2015,12.9
+274,Spain,Men,1990,11.6
+275,Spain,Men,1995,17.8
+276,Spain,Men,2000,9.5
+277,Spain,Men,2005,7.1
+278,Spain,Men,2010,19.6
+279,Spain,Men,2015,20.8
+280,Spain,Women,1990,24.5
+281,Spain,Women,1995,30.8
+282,Spain,Women,2000,20.5
+283,Spain,Women,2005,12.0
+284,Spain,Women,2010,20.2
+285,Spain,Women,2015,23.5
+286,Sweden,Men,1990,1.9
+287,Sweden,Men,1995,9.8
+288,Sweden,Men,2000,6.2
+289,Sweden,Men,2005,7.8
+290,Sweden,Men,2010,8.7
+291,Sweden,Men,2015,7.5
+292,Sweden,Women,1990,1.8
+293,Sweden,Women,1995,8.2
+294,Sweden,Women,2000,5.4
+295,Sweden,Women,2005,7.5
+296,Sweden,Women,2010,8.5
+297,Sweden,Women,2015,7.2
+298,Switzerland,Men,1995,2.9
+299,Switzerland,Men,2000,2.3
+300,Switzerland,Men,2005,3.9
+301,Switzerland,Men,2010,4.5
+302,Switzerland,Men,2015,4.7
+303,Switzerland,Women,1995,3.9
+304,Switzerland,Women,2000,3.1
+305,Switzerland,Women,2005,5.1
+306,Switzerland,Women,2010,5.2
+307,Switzerland,Women,2015,4.9
+308,Turkey,Men,1990,7.8
+309,Turkey,Men,1995,7.8
+310,Turkey,Men,2000,6.6
+311,Turkey,Men,2005,10.4
+312,Turkey,Men,2010,11.4
+313,Turkey,Men,2015,9.2
+314,Turkey,Women,1990,8.5
+315,Turkey,Women,1995,7.3
+316,Turkey,Women,2000,6.3
+317,Turkey,Women,2005,11.2
+318,Turkey,Women,2010,13.0
+319,Turkey,Women,2015,12.7
+320,United Kingdom,Men,1990,7.0
+321,United Kingdom,Men,1995,10.0
+322,United Kingdom,Men,2000,6.0
+323,United Kingdom,Men,2005,5.4
+324,United Kingdom,Men,2010,8.5
+325,United Kingdom,Men,2015,5.4
+326,United Kingdom,Women,1990,6.5
+327,United Kingdom,Women,1995,6.8
+328,United Kingdom,Women,2000,4.7
+329,United Kingdom,Women,2005,4.4
+330,United Kingdom,Women,2010,6.6
+331,United Kingdom,Women,2015,5.1
+332,United States,Men,1990,5.7
+333,United States,Men,1995,5.6
+334,United States,Men,2000,3.9
+335,United States,Men,2005,5.1
+336,United States,Men,2010,10.5
+337,United States,Men,2015,5.4
+338,United States,Women,1990,5.5
+339,United States,Women,1995,5.6
+340,United States,Women,2000,4.1
+341,United States,Women,2005,5.1
+342,United States,Women,2010,8.6
+343,United States,Women,2015,5.2
+344,Brazil,Men,2005,7.1
+345,Brazil,Women,2005,12.2
+346,Chile,Men,2000,9.4
+347,Chile,Men,2005,7.6
+348,Chile,Men,2010,7.2
+349,Chile,Men,2015,5.8
+350,Chile,Women,2000,12.5
+351,Chile,Women,2005,12.3
+352,Chile,Women,2010,9.6
+353,Chile,Women,2015,6.8
+354,China (People's Republic of),Men,2000,3.5
+355,China (People's Republic of),Men,2010,2.6
+356,China (People's Republic of),Women,2000,3.7
+357,China (People's Republic of),Women,2010,3.2
+358,Colombia,Men,2005,9.1
+359,Colombia,Men,2010,9.0
+360,Colombia,Men,2015,6.8
+361,Colombia,Women,2005,15.9
+362,Colombia,Women,2010,15.7
+363,Colombia,Women,2015,11.8
+364,Costa Rica,Men,1990,4.0
+365,Costa Rica,Men,1995,4.6
+366,Costa Rica,Men,2000,4.3
+367,Costa Rica,Men,2005,5.0
+368,Costa Rica,Men,2010,7.6
+369,Costa Rica,Men,2015,8.0
+370,Costa Rica,Women,1990,5.7
+371,Costa Rica,Women,1995,6.5
+372,Costa Rica,Women,2000,6.6
+373,Costa Rica,Women,2005,9.3
+374,Costa Rica,Women,2010,11.0
+375,Costa Rica,Women,2015,12.2
+376,Estonia,Men,1990,0.6
+377,Estonia,Men,1995,10.4
+378,Estonia,Men,2000,15.7
+379,Estonia,Men,2005,9.1
+380,Estonia,Men,2010,19.2
+381,Estonia,Men,2015,6.2
+382,Estonia,Women,1990,0.7
+383,Estonia,Women,1995,8.9
+384,Estonia,Women,2000,13.2
+385,Estonia,Women,2005,6.9
+386,Estonia,Women,2010,14.1
+387,Estonia,Women,2015,6.1
+388,India,Men,2000,4.4
+389,India,Men,2005,4.1
+390,India,Men,2010,3.3
+391,India,Women,2000,4.2
+392,India,Women,2005,5.0
+393,India,Women,2010,4.3
+394,Indonesia,Men,2010,6.5
+395,Indonesia,Women,2010,8.5
+396,Israel,Men,1990,11.0
+397,Israel,Men,1995,7.3
+398,Israel,Men,2000,11.0
+399,Israel,Men,2005,11.0
+400,Israel,Men,2010,8.9
+401,Israel,Men,2015,5.1
+402,Israel,Women,1990,14.0
+403,Israel,Women,1995,10.7
+404,Israel,Women,2000,11.1
+405,Israel,Women,2005,11.6
+406,Israel,Women,2010,7.9
+407,Israel,Women,2015,5.4
+408,Latvia,Men,2000,15.2
+409,Latvia,Men,2005,10.1
+410,Latvia,Men,2010,22.7
+411,Latvia,Men,2015,11.1
+412,Latvia,Women,2000,13.2
+413,Latvia,Women,2005,10.0
+414,Latvia,Women,2010,16.3
+415,Latvia,Women,2015,8.6
+416,Lithuania,Men,2000,18.8
+417,Lithuania,Men,2005,8.1
+418,Lithuania,Men,2010,21.2
+419,Lithuania,Men,2015,10.1
+420,Lithuania,Women,2000,14.0
+421,Lithuania,Women,2005,8.5
+422,Lithuania,Women,2010,14.5
+423,Lithuania,Women,2015,8.2
+424,Russia,Men,1995,9.7
+425,Russia,Men,2000,10.8
+426,Russia,Men,2005,7.3
+427,Russia,Men,2010,7.9
+428,Russia,Men,2015,5.8
+429,Russia,Women,1995,9.2
+430,Russia,Women,2000,10.4
+431,Russia,Women,2005,6.9
+432,Russia,Women,2010,6.8
+433,Russia,Women,2015,5.3
+434,Slovenia,Men,2000,6.5
+435,Slovenia,Men,2005,6.1
+436,Slovenia,Men,2010,7.4
+437,Slovenia,Men,2015,8.0
+438,Slovenia,Women,2000,7.1
+439,Slovenia,Women,2005,7.0
+440,Slovenia,Women,2010,7.0
+441,Slovenia,Women,2015,10.0
+442,South Africa,Men,2005,20.0
+443,South Africa,Men,2010,22.8
+444,South Africa,Men,2015,23.2
+445,South Africa,Women,2005,28.2
+446,South Africa,Women,2010,27.0
+447,South Africa,Women,2015,27.5
+448,Australia,Men,2016,5.7
+449,Australia,Women,2016,5.8
+450,Austria,Men,2016,6.4
+451,Austria,Women,2016,5.5
+452,Belgium,Men,2016,8.1
+453,Belgium,Women,2016,7.6
+454,Canada,Men,2016,7.7
+455,Canada,Women,2016,6.3
+456,Czech Republic,Men,2016,3.4
+457,Czech Republic,Women,2016,4.7
+458,Denmark,Men,2016,5.4
+459,Denmark,Women,2016,6.2
+460,Finland,Men,2016,8.9
+461,Finland,Women,2016,8.6
+462,France,Men,2016,10.2
+463,France,Women,2016,9.8
+464,Germany,Men,2016,4.5
+465,Germany,Women,2016,3.7
+466,Greece,Men,2016,19.9
+467,Greece,Women,2016,28.1
+468,Hungary,Men,2016,5.1
+469,Hungary,Women,2016,5.1
+470,Iceland,Men,2016,3.3
+471,Iceland,Women,2016,3.4
+472,Ireland,Men,2016,9.0
+473,Ireland,Women,2016,7.5
+474,Italy,Men,2016,10.9
+475,Italy,Women,2016,12.8
+476,Japan,Men,2016,3.3
+477,Japan,Women,2016,2.9
+478,Korea,Men,2016,3.8
+479,Korea,Women,2016,3.6
+480,Luxembourg,Men,2016,6.0
+481,Luxembourg,Women,2016,6.6
+482,Mexico,Men,2016,3.8
+483,Mexico,Women,2016,3.9
+484,Netherlands,Men,2016,5.6
+485,Netherlands,Women,2016,6.5
+486,New Zealand,Men,2016,4.8
+487,New Zealand,Women,2016,5.5
+488,Norway,Men,2016,5.4
+489,Norway,Women,2016,3.9
+490,Poland,Men,2016,6.1
+491,Poland,Women,2016,6.2
+492,Portugal,Men,2016,11.0
+493,Portugal,Women,2016,11.2
+494,Slovak Republic,Men,2016,8.8
+495,Slovak Republic,Women,2016,10.7
+496,Spain,Men,2016,18.1
+497,Spain,Women,2016,21.4
+498,Sweden,Men,2016,7.3
+499,Sweden,Women,2016,6.5
+500,Switzerland,Men,2016,4.8
+501,Switzerland,Women,2016,5.0
+502,Turkey,Men,2016,9.6
+503,Turkey,Women,2016,13.7
+504,United Kingdom,Men,2016,4.9
+505,United Kingdom,Women,2016,4.7
+506,United States,Men,2016,4.9
+507,United States,Women,2016,4.8
+508,Brazil,Men,2015,7.4
+509,Brazil,Women,2015,10.4
+510,Chile,Men,2016,6.1
+511,Chile,Women,2016,7.0
+512,Colombia,Men,2016,7.1
+513,Colombia,Women,2016,12.1
+514,Costa Rica,Men,2016,8.0
+515,Costa Rica,Women,2016,12.1
+516,Estonia,Men,2016,7.4
+517,Estonia,Women,2016,6.1
+518,Israel,Men,2016,4.7
+519,Israel,Women,2016,4.9
+520,Latvia,Men,2016,10.9
+521,Latvia,Women,2016,8.4
+522,Lithuania,Men,2016,9.1
+523,Lithuania,Women,2016,6.7
+524,Russia,Men,2016,5.7
+525,Russia,Women,2016,5.3
+526,Slovenia,Men,2016,7.5
+527,Slovenia,Women,2016,8.6
+528,South Africa,Men,2016,24.5
+529,South Africa,Women,2016,28.9
+530,Australia,Men,2017,5.5
+531,Australia,Women,2017,5.7
+532,Austria,Men,2017,5.9
+533,Austria,Women,2017,5.0
+534,Belgium,Men,2017,7.1
+535,Belgium,Women,2017,7.1
+536,Canada,Men,2017,6.8
+537,Canada,Women,2017,5.9
+538,Czech Republic,Men,2017,2.3
+539,Czech Republic,Women,2017,3.6
+540,Denmark,Men,2017,5.5
+541,Denmark,Women,2017,6.0
+542,Finland,Men,2017,8.8
+543,Finland,Women,2017,8.4
+544,France,Men,2017,9.5
+545,France,Women,2017,9.3
+546,Germany,Men,2017,4.1
+547,Germany,Women,2017,3.3
+548,Greece,Men,2017,17.8
+549,Greece,Women,2017,26.1
+550,Hungary,Men,2017,3.8
+551,Hungary,Women,2017,4.6
+552,Iceland,Men,2017,3.4
+553,Iceland,Women,2017,3.2
+554,Ireland,Men,2017,7.0
+555,Ireland,Women,2017,6.0
+556,Italy,Men,2017,10.3
+557,Italy,Women,2017,12.4
+558,Japan,Men,2017,2.9
+559,Japan,Women,2017,2.7
+560,Korea,Men,2017,3.8
+561,Korea,Women,2017,3.5
+562,Luxembourg,Men,2017,5.5
+563,Luxembourg,Women,2017,5.5
+564,Mexico,Men,2017,3.3
+565,Mexico,Women,2017,3.6
+566,Netherlands,Men,2017,4.5
+567,Netherlands,Women,2017,5.3
+568,New Zealand,Men,2017,4.3
+569,New Zealand,Women,2017,5.2
+570,Norway,Men,2017,4.6
+571,Norway,Women,2017,3.7
+572,Poland,Men,2017,4.9
+573,Poland,Women,2017,4.9
+574,Portugal,Men,2017,8.4
+575,Portugal,Women,2017,9.3
+576,Slovak Republic,Men,2017,7.9
+577,Slovak Republic,Women,2017,8.4
+578,Spain,Men,2017,15.7
+579,Spain,Women,2017,19.0
+580,Sweden,Men,2017,6.9
+581,Sweden,Women,2017,6.4
+582,Switzerland,Men,2017,4.6
+583,Switzerland,Women,2017,5.1
+584,Turkey,Men,2017,9.4
+585,Turkey,Women,2017,14.1
+586,United Kingdom,Men,2017,4.5
+587,United Kingdom,Women,2017,4.2
+588,United States,Men,2017,4.4
+589,United States,Women,2017,4.3
+590,Brazil,Men,2016,10.2
+591,Brazil,Men,2017,10.8
+592,Brazil,Women,2016,13.1
+593,Brazil,Women,2017,14.5
+594,Bulgaria,Men,2000,17.1
+595,Bulgaria,Men,2005,10.3
+596,Bulgaria,Men,2010,10.9
+597,Bulgaria,Men,2015,9.8
+598,Bulgaria,Men,2016,8.1
+599,Bulgaria,Men,2017,6.4
+600,Bulgaria,Women,2000,16.7
+601,Bulgaria,Women,2005,9.8
+602,Bulgaria,Women,2010,9.6
+603,Bulgaria,Women,2015,8.4
+604,Bulgaria,Women,2016,7.0
+605,Bulgaria,Women,2017,5.9
+606,Chile,Men,2017,6.3
+607,Chile,Women,2017,7.2
+608,Colombia,Men,2017,7.2
+609,Colombia,Women,2017,12.3
+610,Costa Rica,Men,2017,7.5
+611,Costa Rica,Women,2017,11.6
+612,Croatia,Men,2005,11.6
+613,Croatia,Men,2010,11.0
+614,Croatia,Men,2015,15.7
+615,Croatia,Men,2016,12.5
+616,Croatia,Men,2017,10.6
+617,Croatia,Women,2005,13.8
+618,Croatia,Women,2010,12.3
+619,Croatia,Women,2015,17.0
+620,Croatia,Women,2016,13.8
+621,Croatia,Women,2017,11.9
+622,Cyprus,Men,2000,3.2
+623,Cyprus,Men,2005,4.4
+624,Cyprus,Men,2010,6.1
+625,Cyprus,Men,2015,15.2
+626,Cyprus,Men,2016,12.6
+627,Cyprus,Men,2017,10.9
+628,Cyprus,Women,2000,7.3
+629,Cyprus,Women,2005,6.5
+630,Cyprus,Women,2010,6.4
+631,Cyprus,Women,2015,14.9
+632,Cyprus,Women,2016,13.3
+633,Cyprus,Women,2017,11.3
+634,Estonia,Men,2017,6.2
+635,Estonia,Women,2017,5.3
+636,Indonesia,Men,2000,5.7
+637,Indonesia,Men,2005,8.8
+638,Indonesia,Men,2015,5.9
+639,Indonesia,Men,2016,5.7
+640,Indonesia,Men,2017,5.4
+641,Indonesia,Women,2000,6.7
+642,Indonesia,Women,2005,14.1
+643,Indonesia,Women,2015,6.1
+644,Indonesia,Women,2016,5.4
+645,Indonesia,Women,2017,5.4
+646,Israel,Men,2017,4.1
+647,Israel,Women,2017,4.3
+648,Latvia,Men,2017,9.8
+649,Latvia,Women,2017,7.7
+650,Lithuania,Men,2017,8.5
+651,Lithuania,Women,2017,5.7
+652,North Macedonia,Men,2010,31.9
+653,North Macedonia,Men,2015,26.7
+654,North Macedonia,Men,2016,24.4
+655,North Macedonia,Men,2017,22.7
+656,North Macedonia,Women,2010,32.2
+657,North Macedonia,Women,2015,25.1
+658,North Macedonia,Women,2016,22.7
+659,North Macedonia,Women,2017,21.8
+660,Malta,Men,2000,6.2
+661,Malta,Men,2005,6.3
+662,Malta,Men,2010,6.7
+663,Malta,Men,2015,5.5
+664,Malta,Men,2016,4.4
+665,Malta,Men,2017,3.8
+666,Malta,Women,2000,6.5
+667,Malta,Women,2005,8.4
+668,Malta,Women,2010,7.1
+669,Malta,Women,2015,5.2
+670,Malta,Women,2016,5.2
+671,Malta,Women,2017,4.3
+672,Romania,Men,2000,7.8
+673,Romania,Men,2005,7.8
+674,Romania,Men,2010,7.6
+675,Romania,Men,2015,7.5
+676,Romania,Men,2016,6.6
+677,Romania,Men,2017,5.6
+678,Romania,Women,2000,6.4
+679,Romania,Women,2005,6.4
+680,Romania,Women,2010,6.2
+681,Romania,Women,2015,5.8
+682,Romania,Women,2016,5.0
+683,Romania,Women,2017,4.0
+684,Russia,Men,2017,5.4
+685,Russia,Women,2017,5.0
+686,Slovenia,Men,2017,5.8
+687,Slovenia,Women,2017,7.5
+688,South Africa,Men,2017,25.5
+689,South Africa,Women,2017,29.4
+690,Australia,Men,2018,5.3
+691,Australia,Women,2018,5.3
+692,Austria,Men,2018,5.0
+693,Austria,Women,2018,4.7
+694,Belgium,Men,2018,6.3
+695,Belgium,Women,2018,5.6
+696,Canada,Men,2018,6.2
+697,Canada,Women,2018,5.6
+698,Czech Republic,Men,2018,1.8
+699,Czech Republic,Women,2018,2.8
+700,Denmark,Men,2018,4.6
+701,Denmark,Women,2018,5.1
+702,Finland,Men,2018,7.3
+703,Finland,Women,2018,7.3
+704,France,Men,2018,9.0
+705,France,Women,2018,9.1
+706,Germany,Men,2018,3.8
+707,Germany,Women,2018,2.9
+708,Greece,Men,2018,15.4
+709,Greece,Women,2018,24.2
+710,Hungary,Men,2018,3.5
+711,Hungary,Women,2018,4.0
+712,Iceland,Men,2018,3.2
+713,Iceland,Women,2018,3.0
+714,Ireland,Men,2018,5.7
+715,Ireland,Women,2018,5.2
+716,Italy,Men,2018,9.7
+717,Italy,Women,2018,11.8
+718,Japan,Men,2018,2.6
+719,Japan,Women,2018,2.3
+720,Korea,Men,2018,3.9
+721,Korea,Women,2018,3.7
+722,Luxembourg,Men,2018,5.3
+723,Luxembourg,Women,2018,5.9
+724,Mexico,Men,2018,3.2
+725,Mexico,Women,2018,3.4
+726,Netherlands,Men,2018,3.7
+727,Netherlands,Women,2018,4.0
+728,New Zealand,Men,2018,4.2
+729,New Zealand,Women,2018,4.5
+730,Norway,Men,2018,4.0
+731,Norway,Women,2018,3.5
+732,Poland,Men,2018,3.8
+733,Poland,Women,2018,3.8
+734,Portugal,Men,2018,6.6
+735,Portugal,Women,2018,7.4
+736,Slovak Republic,Men,2018,6.1
+737,Slovak Republic,Women,2018,7.0
+738,Spain,Men,2018,13.7
+739,Spain,Women,2018,17.0
+740,Sweden,Men,2018,6.4
+741,Sweden,Women,2018,6.2
+742,Switzerland,Men,2018,4.4
+743,Switzerland,Women,2018,5.1
+744,Turkey,Men,2018,9.5
+745,Turkey,Women,2018,13.9
+746,United Kingdom,Men,2018,4.2
+747,United Kingdom,Women,2018,4.1
+748,United States,Men,2018,3.9
+749,United States,Women,2018,3.8
+750,Brazil,Men,2018,10.5
+751,Brazil,Women,2018,13.8
+752,Bulgaria,Men,2018,5.7
+753,Bulgaria,Women,2018,4.7
+754,Chile,Men,2018,6.4
+755,Chile,Women,2018,7.7
+756,Colombia,Men,2018,7.5
+757,Colombia,Women,2018,12.7
+758,Costa Rica,Men,2018,8.4
+759,Costa Rica,Women,2018,13.2
+760,Croatia,Men,2018,7.6
+761,Croatia,Women,2018,9.3
+762,Cyprus,Men,2018,8.0
+763,Cyprus,Women,2018,8.7
+764,Estonia,Men,2018,5.4
+765,Estonia,Women,2018,5.3
+766,India,Men,2018,8.7
+767,India,Women,2018,9.0
+768,Israel,Men,2018,4.0
+769,Israel,Women,2018,4.0
+770,Latvia,Men,2018,8.4
+771,Latvia,Women,2018,6.4
+772,Lithuania,Men,2018,6.9
+773,Lithuania,Women,2018,5.4
+774,North Macedonia,Men,2018,21.3
+775,North Macedonia,Women,2018,19.9
+776,Malta,Men,2018,3.8
+777,Malta,Women,2018,3.6
+778,Romania,Men,2018,4.7
+779,Romania,Women,2018,3.5
+780,Russia,Men,2018,4.9
+781,Russia,Women,2018,4.7
+782,Slovenia,Men,2018,4.6
+783,Slovenia,Women,2018,5.7
+784,South Africa,Men,2018,25.1
+785,South Africa,Women,2018,29.0
+786,Australia,Men,2019,5.2
+787,Australia,Women,2019,5.1
+788,Austria,Men,2019,4.6
+789,Austria,Women,2019,4.3
+790,Belgium,Men,2019,5.7
+791,Belgium,Women,2019,4.9
+792,Canada,Men,2019,6.1
+793,Canada,Women,2019,5.3
+794,Czech Republic,Men,2019,1.7
+795,Czech Republic,Women,2019,2.4
+796,Denmark,Men,2019,4.5
+797,Denmark,Women,2019,5.0
+798,Finland,Men,2019,7.1
+799,Finland,Women,2019,6.2
+800,France,Men,2019,8.5
+801,France,Women,2019,8.4
+802,Germany,Men,2019,3.5
+803,Germany,Women,2019,2.7
+804,Greece,Men,2019,14.0
+805,Greece,Women,2019,21.5
+806,Hungary,Men,2019,3.4
+807,Hungary,Women,2019,3.5
+808,Iceland,Men,2019,4.3
+809,Iceland,Women,2019,3.4
+810,Ireland,Men,2019,4.9
+811,Ireland,Women,2019,3.8
+812,Italy,Men,2019,9.1
+813,Italy,Women,2019,11.1
+814,Japan,Men,2019,2.5
+815,Japan,Women,2019,2.2
+816,Korea,Men,2019,3.9
+817,Korea,Women,2019,3.6
+818,Luxembourg,Men,2019,5.6
+819,Luxembourg,Women,2019,5.5
+820,Mexico,Men,2019,3.5
+821,Mexico,Women,2019,3.5
+822,Netherlands,Men,2019,3.4
+823,Netherlands,Women,2019,3.4
+824,New Zealand,Men,2019,3.8
+825,New Zealand,Women,2019,4.4
+826,Norway,Men,2019,3.9
+827,Norway,Women,2019,3.4
+828,Poland,Men,2019,3.0
+829,Poland,Women,2019,3.6
+830,Portugal,Men,2019,5.8
+831,Portugal,Women,2019,7.2
+832,Slovak Republic,Men,2019,5.6
+833,Slovak Republic,Women,2019,6.0
+834,Spain,Men,2019,12.4
+835,Spain,Women,2019,16.0
+836,Sweden,Men,2019,6.7
+837,Sweden,Women,2019,6.9
+838,Switzerland,Men,2019,4.1
+839,Switzerland,Women,2019,4.7
+840,Turkey,Men,2019,12.4
+841,Turkey,Women,2019,16.5
+842,United Kingdom,Men,2019,4.1
+843,United Kingdom,Women,2019,3.6
+844,United States,Men,2019,3.7
+845,United States,Women,2019,3.6
+846,Brazil,Men,2019,9.6
+847,Brazil,Women,2019,14.0
+848,Chile,Men,2019,6.5
+849,Chile,Women,2019,7.7
+850,Colombia,Men,2019,8.2
+851,Colombia,Women,2019,13.7
+852,Costa Rica,Men,2019,9.3
+853,Costa Rica,Women,2019,15.3
+854,Estonia,Men,2019,4.0
+855,Estonia,Women,2019,4.8
+856,Indonesia,Men,2018,5.4
+857,Indonesia,Men,2019,5.3
+858,Indonesia,Women,2018,5.3
+859,Indonesia,Women,2019,5.2
+860,Israel,Men,2019,3.7
+861,Israel,Women,2019,3.9
+862,Latvia,Men,2019,7.2
+863,Latvia,Women,2019,5.4
+864,Lithuania,Men,2019,7.0
+865,Lithuania,Women,2019,5.5
+866,Russia,Men,2019,4.8
+867,Russia,Women,2019,4.4
+868,Slovenia,Men,2019,4.0
+869,Slovenia,Women,2019,5.0
+870,South Africa,Men,2019,26.8
+871,South Africa,Women,2019,30.5
+872,Australia,Men,2020,6.6
+873,Australia,Women,2020,6.4
+874,Austria,Men,2020,5.5
+875,Austria,Women,2020,5.2
+876,Belgium,Men,2020,5.7
+877,Belgium,Women,2020,5.4
+878,Canada,Men,2020,9.6
+879,Canada,Women,2020,9.4
+880,Czech Republic,Men,2020,2.2
+881,Czech Republic,Women,2020,3.0
+882,Denmark,Men,2020,5.1
+883,Denmark,Women,2020,5.9
+884,Finland,Men,2020,7.9
+885,Finland,Women,2020,7.5
+886,France,Men,2020,8.1
+887,France,Women,2020,8.0
+888,Greece,Men,2020,13.5
+889,Greece,Women,2020,19.8
+890,Hungary,Men,2020,4.1
+891,Hungary,Women,2020,4.5
+892,Iceland,Men,2020,6.6
+893,Iceland,Women,2020,6.3
+894,Ireland,Men,2020,5.1
+895,Ireland,Women,2020,4.5
+896,Italy,Men,2020,8.4
+897,Italy,Women,2020,10.2
+898,Japan,Men,2020,3.0
+899,Japan,Women,2020,2.5
+900,Korea,Men,2020,3.9
+901,Korea,Women,2020,4.0
+902,Luxembourg,Men,2020,6.6
+903,Luxembourg,Women,2020,7.0
+904,Mexico,Men,2020,4.5
+905,Mexico,Women,2020,4.2
+906,Netherlands,Men,2020,3.7
+907,Netherlands,Women,2020,4.0
+908,New Zealand,Men,2020,4.2
+909,New Zealand,Women,2020,5.0
+910,Norway,Men,2020,4.7
+911,Norway,Women,2020,4.1
+912,Poland,Men,2020,3.1
+913,Poland,Women,2020,3.3
+914,Portugal,Men,2020,6.5
+915,Portugal,Women,2020,7.1
+916,Slovak Republic,Men,2020,6.4
+917,Slovak Republic,Women,2020,7.1
+918,Spain,Men,2020,13.9
+919,Spain,Women,2020,17.4
+920,Sweden,Men,2020,8.3
+921,Sweden,Women,2020,8.3
+922,Switzerland,Men,2020,4.7
+923,Switzerland,Women,2020,5.0
+924,Turkey,Men,2020,12.3
+925,Turkey,Women,2020,14.8
+926,United Kingdom,Men,2020,4.9
+927,United Kingdom,Women,2020,4.1
+928,United States,Men,2020,7.8
+929,United States,Women,2020,8.3
+930,Brazil,Men,2020,11.6
+931,Brazil,Women,2020,15.9
+932,Chile,Men,2020,10.5
+933,Chile,Women,2020,10.9
+934,Colombia,Men,2020,12.8
+935,Colombia,Women,2020,20.5
+936,Costa Rica,Men,2020,15.5
+937,Costa Rica,Women,2020,25.4
+938,Estonia,Men,2020,7.0
+939,Estonia,Women,2020,6.6
+940,India,Men,2019,8.7
+941,India,Women,2019,8.7
+942,Israel,Men,2020,4.5
+943,Israel,Women,2020,4.1
+944,Latvia,Men,2020,9.1
+945,Latvia,Women,2020,7.1
+946,Lithuania,Men,2020,9.3
+947,Lithuania,Women,2020,7.7
+948,Russia,Men,2020,5.8
+949,Russia,Women,2020,5.7
+950,Slovenia,Men,2020,4.4
+951,Slovenia,Women,2020,5.6
+952,South Africa,Men,2020,27.7
+953,South Africa,Women,2020,31.0

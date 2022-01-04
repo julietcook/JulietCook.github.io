@@ -1,0 +1,25 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+      "title": {
+      "text": "Global Gender Gap Index",
+      "subtitle":"Source: Global Gender Gap report 2021",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "width": 600,
+    "height": 300,
+    "data": {
+      "url": "https://raw.githubusercontent.com/julietcook/JulietCook.github.io/main/Datasets/Chart5/countries_gendergap.json",
+      "format": {"type": "topojson", "feature": "countries1"}
+    },
+  
+    "projection": {"type": "equalEarth"},
+    "mark": {"type": "geoshape", "tooltip": true},
+    "encoding": {"color": {"field": "properties.epi", "type": "quantitative","title": "Gender Gap","legend": {
+          "title": null,
+          "format": "1"},
+        "scale": {"range": ["#0a2917","#2db967","#eafaf1"]}},"tooltip": [{"field": "properties.name","title": "Country"},{"field": "properties.epi","title": "PayGap"}]}
+  
+  }

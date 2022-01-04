@@ -4,6 +4,12 @@
 <!-- ///////////////////  HEAD //////////////////////////////////// -->
 
 <head>
+
+      <!--The next three lines allow the Vega embed-->
+      <script src="https://cdn.jsdelivr.net/npm/vega@5.21.0"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+
      <!-- CSS -->
      <link rel="stylesheet" href="styles.css">
 
@@ -32,7 +38,7 @@
     <p class=title2>A Project exploring Women's labour participation rate globally</p>
 
      
-    <p class=title3><span class="bold"> GDP vs Women's Labour Force Participation Rate" </span></p>
+    <p class=title3><span class="bold"> GDP vs Women's Labour Force Participation Rate </span></p>
     <p class=title4><span > Using tooltip to create an interactive scatterplot </span></p>
 
     <div class="container">
@@ -40,7 +46,7 @@
      <!--Chart 1 -->
      <div class="chart" id="chart1">
         <script>
-          var myChart1 = "Project/Chart1.json";
+          var myChart1= "Project/Chart1.json";
           vegaEmbed('#chart1', myChart1);
         </script>
       </div>
@@ -49,16 +55,16 @@
     </div>
     
      
-    <p class=title3><span class="bold"> UK Labour Force Participation Rate" </span></p>
+    <p class=title3><span class="bold"> UK Labour Force Participation Rate </span></p>
     <p class=title4><span > Using tooltip to create an multiline graph </span></p>
 
     <div class="container">
 
      <!--Chart 2-->
-     <div class="chart" id="chart18">
+     <div class="chart" id="chart2">
         <script>
-          var myChart18 = "Chart2.json";
-          vegaEmbed('#chart18', myChart18);
+          var myChart2 = "Project/Chart2.json";
+          vegaEmbed('#chart2', myChart2);
         </script>
       </div>
 
@@ -71,10 +77,10 @@
     <div class="container">
 
      <!--Chart 3-->
-     <div class="chart" id="chart19">
+     <div class="chart" id="chart3">
         <script>
-          var myChart19 = "Chart3.json";
-          vegaEmbed('#chart19', myChart19);
+          var myChart3 = "Project/Chart3.json";
+          vegaEmbed('#chart3', myChart3);
         </script>
       </div>
 
@@ -87,10 +93,10 @@
     <div class="container">
 
      <!--Chart 4-->
-     <div class="chart" id="chart20">
+     <div class="chart" id="chart4">
         <script>
-          var myChart20 = "Chart4.json";
-          vegaEmbed('#chart20', myChart20);
+          var myChart4 = "Project/Chart4.json";
+          vegaEmbed('#chart4', myChart4);
         </script>
       </div>
 
@@ -103,34 +109,34 @@
     <div class="container">
 
      <!-- Chart 5 percentage female labour force UK-->
-      <div class="chart" id="chart21">
+      <div class="chart" id="chart5">
         <script>
-          var myChart21 = "chart_percentfemale_GBR.json";
-          vegaEmbed('#chart21', myChart21);
+          var myChart5 = "chart_percentfemale_GBR.json";
+          vegaEmbed('#chart5', myChart5);
         </script>
       </div>
 
      <!--Chart 6 percentage female labour force Nepal -->
-     <div class="chart" id="chart22">
+     <div class="chart" id="chart6">
         <script>
-          var myChart22 = "chart_percentfemale_NP.json";
-          vegaEmbed('#chart22', myChart22);
+          var myChart6 = "chart_percentfemale_NP.json";
+          vegaEmbed('#chart6', myChart6);
         </script>
       </div>
 
      <!-- Chart 7 percentage female labour force Yemen-->
-     <div class="chart" id="chart23">
+     <div class="chart" id="chart7">
         <script>
-          var myChart23 = "chart_percentfemale_YE.json";
-          vegaEmbed('#chart23', myChart23);
+          var myChart7 = "chart_percentfemale_YE.json";
+          vegaEmbed('#chart7', myChart7);
         </script>
       </div>
 
      <!--Chart 13 percentage female labour force China -->
-     <div class="chart" id="chart24">
+     <div class="chart" id="chart8">
         <script>
-          var myChart24 = "chart_percentfemale_CN.json";
-          vegaEmbed('#chart24', myChart24);
+          var myChart8 = "chart_percentfemale_CN.json";
+          vegaEmbed('#chart8', myChart8);
         </script>
       </div>
 

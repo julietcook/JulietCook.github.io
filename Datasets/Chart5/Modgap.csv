@@ -8,7 +8,7 @@
 6,Australia,0.731
 7,Austria,0.777
 8,Azerbaijan,0.688
-9,Bahamas,0.725
+9,The Bahamas,0.725
 10,Bahrain,0.632
 11,Bangladesh,0.7190000000000001
 12,Barbados,0.769
@@ -21,7 +21,7 @@
 19,Bosnia and Herzegovina,0.713
 20,Botswana,0.716
 21,Brazil,0.695
-22,Brunei Darussalam,0.6779999999999999
+22,Brunei,0.6779999999999999
 23,Bulgaria,0.746
 24,Burkina Faso,0.6509999999999999
 25,Burundi,0.769
@@ -50,7 +50,7 @@
 48,Fiji,0.674
 49,Finland,0.861
 50,France,0.784
-51,"Gambia, The",0.644
+51,Gambia,0.644
 52,Georgia,0.732
 53,Germany,0.7959999999999999
 54,Ghana,0.6659999999999999
@@ -73,9 +73,9 @@
 71,Jordan,0.6829999999999999
 72,Kazakhstan,0.71
 73,Kenya,0.6920000000000001
-74,"Korea, Rep.",0.687
+74,South Korea,0.687
 75,Kuwait,0.621
-76,Kyrgyz Republic,0.6809999999999999
+76,Kyrgyzstan,0.6809999999999999
 77,Laos,0.75
 78,Latvia,0.778
 79,Lebanon,0.638
@@ -83,7 +83,7 @@
 81,Liberia,0.693
 82,Lithuania,0.804
 83,Luxembourg,0.726
-84,North Macedonia,0.715
+84,Macedonia,0.715
 85,Madagascar,0.725
 86,Malawi,0.6709999999999999
 87,Malaysia,0.6759999999999999
@@ -122,7 +122,7 @@
 120,Rwanda,0.805
 121,Saudi Arabia,0.603
 122,Senegal,0.684
-123,Serbia,0.78
+123,Republic of Serbia,0.78
 124,Sierra Leone,0.655
 125,Singapore,0.727
 126,Slovakia,0.7120000000000001
@@ -131,14 +131,14 @@
 129,Spain,0.7879999999999999
 130,Sri Lanka,0.67
 131,Suriname,0.7290000000000001
-132,Eswatini,0.7290000000000001
+132,Swaziland,0.7290000000000001
 133,Sweden,0.823
 134,Switzerland,0.7979999999999999
 135,Syria,0.568
 136,Tajikistan,0.65
 137,Tanzania,0.7070000000000001
 138,Thailand,0.71
-139,Timor-Leste,0.72
+139,East Timor,0.72
 140,Togo,0.6829999999999999
 141,Trinidad and Tobago,0.7490000000000001
 142,Tunisia,0.649
@@ -147,7 +147,7 @@
 145,Ukraine,0.7140000000000001
 146,United Arab Emirates,0.716
 147,United Kingdom,0.775
-148,United States,0.763
+148,United States of America,0.763
 149,Uruguay,0.7020000000000001
 150,Vanuatu,0.625
 151,Venezuela,0.6990000000000001

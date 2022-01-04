@@ -1,0 +1,68 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+  "title": {
+    "text": "GDP vs Women's Labour Force Participation Rate",
+    "subtitle":"Interactive Scatterplot, source: WorldBank ",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
+  
+   "data": {
+    "url": "https://raw.githubusercontent.com/julietcook/JulietCook.github.io/main/Datasets/Chart1/GDPvsPart.csv",
+    "format": {"type": "csv"}
+  },
+   "height": 300,
+  "width": 300,
+
+"mark": {"type": "circle", "tooltip": true},
+"encoding": {
+  "x": {"field": "GDP per Capita", "type": "quantitative","title": "GDP per Capita ($)"},
+  "y": {"field": "Labor force participation rate", "type": "quantitative","title": "Women's Labour Force Participation Rate (%)"},
+  "color": {"field": "Country", "type": "nominal","legend":""},
+  "text": {"field": "Country", "type": "nominal"},
+"tooltip": [
+  {"field": "Country", "type": "nominal", "title": "Country"},
+    {"field": "GDP per Capita", "type": "quantitative", "title": "GDP per Capita"},
+    {"field": "Labor force participation rate", "type": "quantitative", "title": "Labor force participation rate"}
+    ]},
+    "layer": [
+      
+    {
+      "data": {
+        "values": [
+          {"GDP per Capita": 0, "Labor force participation rate": 30.37},
+          {"GDP per Capita": 	120000, "Labor force participation rate": 78.23}
+        ]
+      }, 
+      "mark": {"type":"line", "color":"red", "clip": true},
+      "encoding": {
+        "tooltip": null
+      }
+    },
+
+    {"data": {"url": "https://raw.githubusercontent.com/julietcook/JulietCook.github.io/main/Datasets/Chart1/GDPvsPart.csv"}, 
+    "mark": {"type": "point"}
+    },
+
+    {
+      "data": {
+        "values": [
+          {"GDP per Capita": 100000, "Labor force participation rate": 40, "text": "R² = 0.227"}
+        ]
+      }, 
+      "mark": {"type":"text", "color":"red", "fontWeight": "bold"},
+      "encoding": {
+        "tooltip": null,
+        "text": {"field": "text", "type": "nominal"}
+      }
+    }
+
+  ]
+
+
+
+
+}

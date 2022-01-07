@@ -10,6 +10,7 @@
     },
     "width": 600,
     "height": 300,
+    "background":"#e6e6e6",
     "data": {
       "url": "https://raw.githubusercontent.com/julietcook/JulietCook.github.io/main/Datasets/Chart5/countries_gendergap.json",
       "format": {"type": "topojson", "feature": "countries1"}

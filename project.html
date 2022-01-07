@@ -35,12 +35,14 @@
     <p class=title2>My Project</p>
     
 
-    <p class=title2>A Project exploring Women's labour participation rate globally</p>
+    <p class=title2>Modern economic thought is that reducing gender gaps in labour force participation increases global GDP. For my project I am exploring this topic in relation to UK as well as how the UK labour market compares globally.y</p>
 
-    <p class=title3><span class="bold"> UK Labour Force Participation Rate </span></p>
-    <p class=title4><span > Using tooltip to create an multiline graph </span></p>
-
+    <p class=title3><span class="bold"> UK's Labour Force Participation Rate </span></p>
+    <p class=title4><span > A multiline interactive graph. Hover over points with a mouse to see exact values and date </span></p>
+    <p class=title4><span > Source: https://www.ilo.org/shinyapps/bulkexplorer16/?lang=en&segment=indicator&id=EAP_2WAP_SEX_AGE_RT_A&ref_area=GBR&sex=SEX_T+SEX_M+SEX_F&classif1=AGE_AGGREGATE_TOTAL&timefrom=1990&timeto=2020  </span></p>
+    
     <div class="container">
+
 
      <!--Chart 1-->
      <div class="chart1" id="chart2">
@@ -55,9 +57,9 @@
 
 
     
-    <p class=title3><span class="bold"> How Marital Status changes Women's Labour Force Participaiton </span></p>
-    <p class=title4><span > Multiline grpah showing the changes in UK over time </span></p>
-
+    <p class=title3><span class="bold"> Women's Labour Force Participaiton in the UK </span></p>
+    <p class=title4><span > Multiline grpah showing the changes to female participation considering marital status </span></p>
+    <p class=title4><span > Source: https://www.ilo.org/shinyapps/bulkexplorer24/?lang=en&segment=indicator&id=EAP_DWAP_SEX_AGE_MTS_RT_A&ref_area=GBR&sex=SEX_F&classif1=AGE_10YRBANDS_TOTAL&classif2=MTS_AGGREGATE_TOTAL+MTS_AGGREGATE_1+MTS_AGGREGATE_2&timefrom=1983&timeto=2019 </span></p>
     <div class="container">
 
      <!--Chart 2-->
@@ -72,9 +74,9 @@
     </div>
 
 
-    <p class=title3><span class="bold"> Comparing the changes over time in the UK, Nepal, Yemen, and China</span></p>
-    <p class=title4><span > Using loops to fetch different countrys API's </span></p>
-
+    <p class=title3><span class="bold"> The percentage of the labour force which is female </span></p>
+    <p class=title4><span > Looped data from an api for the UK, Nepal, Yemen, and China in order to compare participation </span></p>
+    <p class=title4><span > Api: https://api.worldbank.org/v2/country/{}/indicator/SL.TLF.TOTL.FE.ZS?format=json </span></p>
     <div class="container">
 
      <!-- Chart 3 percentage female labour force UK-->
@@ -111,8 +113,9 @@
 
     </div>
     
-    <p class=title3><span class="bold"> Chloropleth of Asia </span></p>
-    <p class=title4><span > Showing Women's Labour Force Participation Rate in different countries </span></p>
+    <p class=title3><span class="bold"> Women's Labour Force Participation Rate in Asia </span></p>
+    <p class=title4><span > An interactive Chloropleth of Asia. Hover over countries with a mouse to see exact percentage. </span></p>
+    <p class=title4><span > Source: https://databank.worldbank.org/source/gender-statistics</span></p>
 
     <div class="container">
 
@@ -128,7 +131,8 @@
     </div>
      
     <p class=title3><span class="bold"> GDP vs Women's Labour Force Participation Rate </span></p>
-    <p class=title4><span > Using tooltip to create an interactive scatterplot </span></p>
+    <p class=title4><span >Regression line suggests that and increase in capita by $10,000 increases the percentage of women in the labour force out of women who are working age population by 3.99% 
+          This regression line had an R2 value of 0.227 </span></p>
 
     <div class="container">
 

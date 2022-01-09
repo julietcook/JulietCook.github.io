@@ -146,7 +146,7 @@
     </div>
             
     <p class=title3><span class="bold">  Global Unemployment rates of Men vs Women from 1990 to 2020</span></p>
-    <p class=title4><span > The initial scatter graph I made had all the counties at all dates having points and it was only when they were hovered when the year was revealed. I then managed to create 2 scales so that a range of dates could be displayed. This was still not clear what year was being shown or the change over the years, but by using "transform": [{"filter": "datum.Date==Date"}], and params I was able to combine the 2 scales to just one in which the year can be selected.  </span></p>
+    <p class=title4><span > The initial scatter graph I made had points for all the counties at every date. I then managed to create 2 scales so that a range of dates could be displayed. It was still not clear what year was being shown or the change over the years, but by using "transform": [{"filter": "datum.Date==Date"}], and params I was able to combine the 2 scales to just one in which the year can be selected.  </span></p>
     <p class=title4><span > <a href=https://stats.oecd.org/index.aspx?queryid=54743#> Source </a> </span></p>
 
     <div class="container">
@@ -163,7 +163,7 @@
     </div>
 
     <p class=title3><span class="bold"> Choropleth map of Gender Gap </span></p>
-    <p class=title4><span >The Gender Gap Index ranks countries according to calculated gender gap between women and men in four key areas: health, education, economy, and politics to gauge the state of gender equality in a country. It is based on 14 indicators within these topics. The Global Gender Gap report is published by The World Economic Forum, however I struggled to scrape the data from there pdf report, therefore I scraped the data from the Wikipedia page in which it has a table of all the countries Gender Gap Index since 2006. I had to create a topojson file with my data and the correct geounits and geometries. I used loops in Python to merge both these data from the gender gap index with a global topojson. 
+    <p class=title4><span >The Gender Gap Index ranks countries according to calculated gender gap between women and men in four key areas: health, education, economy, and politics to gauge the state of gender equality in a country. It is based on 14 indicators within these topics. <a href=https://www.weforum.org/reports/global-gender-gap-report-2021> The Gender Gap report </a> is published by The World Economic Forum, however I struggled to scrape the data from their pdf report, therefore I scraped the data from the Wikipedia page in which it has a table of all the countries' Gender Gap Indices since 2006. I had to create a topojson file with my data and the correct geounits and geometries. I used loops in Python to merge both these data sets to form the gender gap index with a global topojson. 
  </span></p>
     <p class=title4><span > <a href=https://en.wikipedia.org/wiki/Global_Gender_Gap_Report> Wikipedia Page </a> </span></p>
     <div class="container">

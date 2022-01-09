@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-      "text": "Employment rate in % ",
+      "text": "2020 Employment rate (%) ",
       "subtitle":"Data scrapped form Wikipedia",
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,

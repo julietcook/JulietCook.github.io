@@ -3,7 +3,7 @@
   
   "title": {
     "text": "GDP vs Women's Labour Force Participation Rate",
-    "subtitle":"Interactive Scatterplot, source: WorldBank ",
+    "subtitle":"Interactive Scatterplot,Sources: WorldBank and Worldometer ",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",

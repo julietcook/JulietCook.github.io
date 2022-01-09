@@ -9,6 +9,10 @@ footer {
     height: 100px
 }
 
+.text-center {
+    text-align: center;
+}
+
 h1 {
     /*Data science*/
     font-family:'Georgia', sans-serif;

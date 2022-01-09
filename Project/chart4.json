@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
     "text": "Women's Labour Force Participation Rate in Asia",
-    "subtitle":"Labor force participation rate, female (% of female population ages 15+)",
+    "subtitle":"Labour force participation rate, female (% of female population ages 15+)",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",

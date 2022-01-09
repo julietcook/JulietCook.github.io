@@ -21,6 +21,6 @@
     "encoding": {"color": {"field": "properties.epi", "type": "quantitative","title": "Gender Gap","legend": {
           "title": null,
           "format": "1"},
-        "scale": {"range": ["#0d0d0d","#0a2917","#1e7b43","#2db967","#eafaf1"]}},"tooltip": [{"field": "properties.name","title": "Country"},{"field": "properties.epi","title": "PayGap"}]}
+        "scale": {"range": ["#0d0d0d","#0a2917","#1e7b43","#2db967","#eafaf1"]}},"tooltip": [{"field": "properties.name","title": "Country"},{"field": "properties.epi","title": "Index Value"}]}
   
   }

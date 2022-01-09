@@ -35,11 +35,11 @@
     <p class=title2>My Project</p>
     
 
-    <p class=title2>The International Labour Organization released a <a href="https://www.ilo.org/infostories/en-GB/Stories/Employment/barriers-women#persistent-barriers"> report </a>  in December 2017 titled “The gender gap in employment: What's holding women back?”. In which they state that “The current global labour force participation rate for women is close to 49%. For men, it’s 75%.”  Modern economic thought is that reducing gender gaps in labour force participation increases global GDP. For my project I aim to explore this topic by looking at female’s in the UK labour market and how the UK market compares globally.</p>
+    <p class=title2>The International Labour Organization released a <a href="https://www.ilo.org/infostories/en-GB/Stories/Employment/barriers-women#persistent-barriers"> report </a>  in December 2017 titled “The gender gap in employment: What's holding women back?”. In which they state that “The current global labour force participation rate for women is close to 49%. For men, it’s 75%.”  Modern economic thought is that reducing gender gaps in labour force participation increases global GDP. For my project I aim to explore this topic by looking at females in the UK labour market and how the UK market compares globally.</p>
 
     <p class=title3><span class="bold"> UK's Labour Force Participation Rate </span></p>
-    <p class=title4><span > A multiline interactive graph. Hover over points with a mouse to see exact values and date </span></p>
-    <p class=title4><span > Source: https://www.ilo.org/shinyapps/bulkexplorer16/?lang=en&segment=indicator&id=EAP_2WAP_SEX_AGE_RT_A&ref_area=GBR&sex=SEX_T+SEX_M+SEX_F&classif1=AGE_AGGREGATE_TOTAL&timefrom=1990&timeto=2020  </span></p>
+    <p class=title4><span > I began by focusing on UK, by plotting an interactive graph showing the general trends in participation in the labour market from the 1990’s. This shows that whilst there is no real change in participation in the participation amongst the working age population, the percentage of the female population working has increased from 1990-2020. Initially to change the legend labels I used “Legend”:{“labelExpr”:”{}}. However, this did not change the values everywhere, so when I used tooltips the old labels still existed. Therefore, I had to use “transform” to change the values everywhere. </span></p>
+    <p class=title4><span > <a href=https://www.ilo.org/shinyapps/bulkexplorer16/?lang=en&segment=indicator&id=EAP_2WAP_SEX_AGE_RT_A&ref_area=GBR&sex=SEX_T+SEX_M+SEX_F&classif1=AGE_AGGREGATE_TOTAL&timefrom=1990&timeto=2020> Source </a>  </span></p>
     
     <div class="container">
 
@@ -58,8 +58,8 @@
 
     
     <p class=title3><span class="bold"> Women's Labour Force Participation in the UK </span></p>
-    <p class=title4><span > Multiline grpah showing the changes to female participation considering marital status </span></p>
-    <p class=title4><span > Source: https://www.ilo.org/shinyapps/bulkexplorer24/?lang=en&segment=indicator&id=EAP_DWAP_SEX_AGE_MTS_RT_A&ref_area=GBR&sex=SEX_F&classif1=AGE_10YRBANDS_TOTAL&classif2=MTS_AGGREGATE_TOTAL+MTS_AGGREGATE_1+MTS_AGGREGATE_2&timefrom=1983&timeto=2019 </span></p>
+    <p class=title4><span > This interactive graph shows depending on marital statues female participation in the UK has changed from 1983–2019. Showing women’s participation has increased, with women who are single working less than those who are in a union. </span></p>
+    <p class=title4><span > <a href=https://www.ilo.org/shinyapps/bulkexplorer24/?lang=en&segment=indicator&id=EAP_DWAP_SEX_AGE_MTS_RT_A&ref_area=GBR&sex=SEX_F&classif1=AGE_10YRBANDS_TOTAL&classif2=MTS_AGGREGATE_TOTAL+MTS_AGGREGATE_1+MTS_AGGREGATE_2&timefrom=1983&timeto=2019> Source </a> </span></p>
     <div class="container">
 
      <!--Chart 2-->
@@ -75,8 +75,8 @@
 
 
     <p class=title3><span class="bold"> The percentage of the labour force which is female </span></p>
-    <p class=title4><span > Looped data from an api for the UK, Nepal, Yemen, and China in order to compare participation </span></p>
-    <p class=title4><span > Api: https://api.worldbank.org/v2/country/{}/indicator/SL.TLF.TOTL.FE.ZS?format=json </span></p>
+    <p class=title4><span > I then compared the UK’s female participation with Nepal, Yemen, and China. I got the data using an api form the worldbank. Using the url_base I used python to loop the URLs for the four countries using their country codes. I used loops to request the data, format the data frames and then save then download the data frames as csv files. </span></p>
+    <p class=title4><span > <a href=https://api.worldbank.org/v2/country/{}/indicator/SL.TLF.TOTL.FE.ZS?format=json> api base </a> </span></p>
     <div class="container">
 
      <!-- Chart 3 percentage female labour force UK-->
@@ -113,9 +113,9 @@
 
     </div>
     
-    <p class=title3><span class="bold"> Women's Labour Force Participation Rate in Asia </span></p>
-    <p class=title4><span > An interactive Chloropleth of Asia. Hover over countries with a mouse to see exact percentage. </span></p>
-    <p class=title4><span > Source: https://databank.worldbank.org/source/gender-statistics</span></p>
+    <p class=title3><span class="bold"> Women's Labour Force Participation Rate throughout Asia </span></p>
+    <p class=title4><span > Due to the extreme difference shown between China and Yemen in the previous charts I made a choropleth map of Asia showing the percentage of females working from the female population from ages 15+ throughout Asia. To create the choropleth map of Asia I had to make sure that the data sets country names matched to create a topojson file, I did this by changing names in python. Another challenge I faced with this graph was I wanted the country’s name and participation rate to show. To do this I used tooltip and had to create the fields “properties.epi”, and “properties.geounit” from properties, and then rename these to “Participation rate” and “Country” respectively. It can be seen there are large differences in countries in Asia with Yemen having 6.04% participation and Cambodia having 76.9%. </span></p>
+    <p class=title4><span > <a href=https://databank.worldbank.org/source/gender-statistics> Source </a></span></p>
 
     <div class="container">
 
@@ -131,8 +131,7 @@
     </div>
      
     <p class=title3><span class="bold"> GDP vs Women's Labour Force Participation Rate </span></p>
-    <p class=title4><span >Regression line suggests that and increase in capita by $10,000 increases the percentage of women in the labour force out of women who are working age population by 3.99% 
-          This regression line had an R2 value of 0.227 </span></p>
+    <p class=title4><span >This graph shows GDP vs Women’s Labour Force Participation. The regression line suggests that and increase in capita by $10,000 increases the percentage of women in the labour force out of women who are working age population by 3.99%. The regression has a R2 value of 0.227. Initially found creating the regression line difficult as the data was an object, so I had to change it to an integer by using .astype(int), this then allowed me to regress the data. I also got rid of unnecessary columns with drop in the datasets then combined them using merge</span></p>
 
     <div class="container">
 
@@ -148,7 +147,7 @@
             
     <p class=title3><span class="bold"> Unemployment rate, Men vs Women, 1990 - 2020</span></p>
     <p class=title4><span > An interactive scatter graph hover over points to identify Country. </span></p>
-    <p class=title4><span > Source: https://stats.oecd.org/index.aspx?queryid=54743# </span></p>
+    <p class=title4><span > <a href=https://stats.oecd.org/index.aspx?queryid=54743#> Source </a> </span></p>
 
     <div class="container">
 
@@ -164,8 +163,10 @@
     </div>
 
     <p class=title3><span class="bold"> Choropleth map of Gender Gap </span></p>
-    <p class=title4><span > The Gender Gap Index ranks countries according to calculated gender gap between women and men in four key areas: health, education, economy and politics to gauge the state of gender equality in a country. </span></p>
-    <p class=title4><span > This data was scraped from a wikipedia table, the original source of the data is Source: Global Gender Gap report 2021 </span></p>
+    <p class=title4><span > The Gender Gap Index ranks countries according to calculated gender gap between women and men in four key areas: health, education, economy, and politics to gauge the state of gender equality in a country. It is based on 14 indicators within these topics. The Global Gender Gap report is published by The World Economic Forum, however I struggled to scrape the data from there pdf report, therefore I scraped the data from the Wikipedia page in which it has a table of all the countries Gender Gap Index since 2006. 
+I had to create a topojson file with my data and the correct geounits and geometries. I used loops in Python to merge both these data from the gender gap index with a global topojson. Using this topojson I used vega-lite to create an interactive world choropleth map in which countries which have a lower score are a darker green and countries with a high score a light green. 
+ </span></p>
+    <p class=title4><span > <a href=https://en.wikipedia.org/wiki/Global_Gender_Gap_Report> Wikipedia Page </a> </span></p>
     <div class="container">
 
      <!--Chart 5-->
